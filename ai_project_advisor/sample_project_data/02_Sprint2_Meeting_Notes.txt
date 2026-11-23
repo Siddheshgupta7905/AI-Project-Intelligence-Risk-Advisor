@@ -1,0 +1,15 @@
+MEETING NOTES — SPRINT 2 WEEKLY SYNC
+Date: October 18, 2026
+Attendees: Rohan, Priya, Kabir, Ananya
+
+DISCUSSION SUMMARY:
+- Rohan noted that we are already 8 days behind Milestone 2. University IT still hasn't approved our Google Workspace SSO client credentials. Priya is blocked on finalizing the login flow until IT responds.
+- Kabir mentioned the Event Discovery Feed UI is 90% done, but API integration is waiting on Priya's auth endpoints.
+- Scope Change Request: The Student Council Dean requested adding a "Paid Workshop Ticketing" module via Razorpay before the Nov 15 launch so clubs can collect entry fees for the annual fest. Rohan agreed to look into it, though no timeline adjustment was discussed.
+- Ananya raised a concern that nobody has started writing test cases or setting up the staging server yet. Also, the QR code scanner library chosen by Kabir has rendering bugs on Safari mobile browsers.
+
+ACTION ITEMS & PENDING DECISIONS:
+1. Rohan to follow up urgently with University IT Admin (Mr. Kulkarni) regarding SSO credentials by Oct 20.
+2. Priya to mock the authentication middleware so Kabir can connect the Event Feed without waiting for live SSO.
+3. Decision Needed: Confirm whether Razorpay payment integration will be added to Phase 1 or pushed to Phase 2.
+4. Ananya to set up the AWS staging environment once Rohan shares the cloud billing access key.

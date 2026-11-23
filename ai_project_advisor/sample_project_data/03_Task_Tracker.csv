@@ -1,0 +1,11 @@
+Task_ID,Task_Name,Assignee,Status,Priority,Due_Date,Dependencies,Notes
+T-101,UI Wireframes & Design System,Ananya Das,Completed,High,2026-09-14,None,Approved by team
+T-102,PostgreSQL Database Schema,Priya Nair,Completed,High,2026-09-15,None,Deployed locally
+T-103,University Google SSO Integration,Priya Nair,Blocked,Critical,2026-10-05,IT Approval,Waiting on University IT OAuth keys for 2 weeks
+T-104,Event Discovery Feed Frontend,Kabir Verma,In Progress,High,2026-10-10,T-103,UI ready; blocked on auth token format
+T-105,Club Admin Event Creation API,Priya Nair,In Progress,High,2026-10-18,T-102,80% complete
+T-106,QR Code Generator & Check-in Scanner,Kabir Verma,At Risk,High,2026-10-25,T-104,Camera permissions failing on iOS Safari
+T-107,Automated Email Reminder Service,Priya Nair,Not Started,Medium,2026-10-28,T-105,SendGrid API key pending
+T-108,Razorpay Payment Gateway Integration,Unassigned,Not Started,High,2026-11-05,T-103,Added mid-sprint per Dean request; unestimated
+T-109,AWS Staging Server & CI/CD Setup,Ananya Das,Blocked,Medium,2026-10-22,None,Waiting on Rohan for AWS IAM credentials
+T-110,End-to-End QA & UAT Testing,Ananya Das,Not Started,Critical,2026-11-10,T-106;T-107;T-108,Only 5 days buffer before final launch
