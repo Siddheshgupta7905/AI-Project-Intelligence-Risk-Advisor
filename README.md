@@ -45,17 +45,18 @@ Software teams and student project groups often struggle with incomplete plannin
 ## Project Structure
 
 ```text
-ai_project_advisor/
-├── .streamlit/
-│   └── config.toml                  # Streamlit theme and server configuration
-├── modules/
-│   ├── ingestion.py                 # Multi-format file parsing and metadata extraction
-│   ├── rag_pipeline.py              # Text chunking and TF-IDF retrieval indexing
-│   ├── agents.py                    # Scope, risk, blocker, documentation, and Q&A logic
-│   └── scoring.py                   # Dimension-wise heuristic health scoring
-├── sample_project_data/             # Sample proposal, sprint notes, tracker, and report
-├── app.py                           # Main Streamlit application
-├── requirements.txt                 # Python dependencies
+AI-Project-Intelligence-Risk-Advisor/
+├── ai_project_advisor/
+│   ├── .streamlit/
+│   │   └── config.toml                  # Streamlit theme and server configuration
+│   ├── modules/
+│   │   ├── ingestion.py                 # Multi-format file parsing and metadata extraction
+│   │   ├── rag_pipeline.py              # Text chunking and TF-IDF retrieval indexing
+│   │   ├── agents.py                    # Scope, risk, blocker, documentation, and Q&A logic
+│   │   └── scoring.py                   # Dimension-wise heuristic health scoring
+│   ├── sample_project_data/             # Sample proposal, sprint notes, tracker, and report
+│   ├── app.py                           # Main Streamlit application
+│   └── requirements.txt                 # Python dependencies
 └── README.md
 ```
 
